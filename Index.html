@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stats-con">
+
+            <div class="details">
+                <h1>TO DO App</h1>
+                <p>Keep it up</p>
+                <div id="progressbar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            
+            <div class="stats-member">
+                <p id="numbers">0 / 0</p>
+            </div>
+
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="write your task" id="input">
+            <button type="submit" id="btn">+</button>
+        </form>
+
+        <ul id="task-list"></ul>
+        
+    </div>
+    <script src="/Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
